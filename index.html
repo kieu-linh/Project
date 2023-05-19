@@ -154,6 +154,7 @@
 
         .seller-product {
             margin-top: 15px;
+            text-align: center;
         }
 
         .seller-product .text-face {
@@ -187,6 +188,196 @@
 
         .great-product-left .common-title {
             text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .block-image .img-guide2 {
+            margin-top: -116px;
+            margin-left: 215px;
+        }
+
+        .great-product-right .img-guide3 {
+            margin-bottom: 55px;
+
+        }
+
+        .great-product-right__content {
+            padding: 0 41px;
+
+        }
+
+        .great-product-right__content .common-text {
+            margin-bottom: 27px;
+            font-size: 14px;
+        }
+
+        .btn4 {
+            margin-top: 68px;
+        }
+
+        .item-advantage {
+            text-align: center;
+            padding: 65px 0 50px;
+        }
+
+        .detail {
+            padding-bottom: 24px;
+            margin-bottom: 45px;
+        }
+
+        .advantages-list {
+            margin: 0 -20px;
+        }
+
+        .advantage-detail {
+            width: calc(33.33% - 40px);
+            margin: 0 20px 20px;
+            padding-top: 15px;
+        }
+
+        .advantage-detail .advantages-img01 {
+            margin-bottom: 47px;
+        }
+
+        .advantage-title {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .item-4 {
+            background: #fbfbfb;
+        }
+
+        .item-collection {
+            padding: 60px 0;
+        }
+
+        .collection-detail {
+            width: calc(25% - 30px);
+            margin: 0 15px 20px;
+        }
+
+        .item-collection .collection-title {
+            padding-bottom: 24px;
+            margin-bottom: 10px;
+        }
+
+        .color_is {
+            margin: 0 5px;
+            width: 25px;
+            height: 25px;
+        }
+
+        .medium-light {
+
+            background-color: #f2c8b2;
+        }
+
+        .bright-light {
+
+            background-color: #ffe9de;
+        }
+
+        .color-list .brown {
+            background-color: #a86f52;
+        }
+
+        .color-list .center {
+            background-color: #e4bd9b;
+        }
+
+        .color-list .light {
+            background-color: #f5e0cb;
+        }
+
+        .item-6 {
+            background-image: url(../photo/bg_testimonial.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .item-testimonial {
+            padding: 75px 0 30px;
+        }
+
+        .testimonial {
+            margin-bottom: 33px;
+            text-align: center;
+            padding: 0px 150px 0 150px;
+        }
+
+        .item-img img {
+            width: 48px;
+            height: 35px;
+        }
+
+        .item-img {
+            z-index: 1;
+            left: 48.15%;
+            margin-top: -20px;
+        }
+
+        .item-bog {
+            padding: 75px 0 30px;
+        }
+
+        .blog-content {
+            text-align: left;
+        }
+
+        .blog-name {
+            font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: 700;
+            line-height: 1.56;
+            color: #333;
+        }
+
+        .blog-main__category {
+            margin-bottom: 15px;
+        }
+
+        .blog-main__category .infor-name {
+            font-weight: 700;
+        }
+
+        .infor-title {
+            color: #f4584b;
+        }
+
+        .blog-main__title {
+            margin-bottom: 20px;
+        }
+
+        .blog-content .btn5 {
+            text-decoration: none;
+            color: #707070;
+        }
+
+        .title-hastag {
+            font-size: 16px;
+            text-align: center;
+            width: 23%;
+            text-decoration: none;
+            padding: 15px 0px 14px 0px;
+            border: 2px solid transparent;
+            border-radius: 1px;
+            background-color: #333;
+            color: white;
+            z-index: 1;
+            margin-top: -25px;
+            margin-left: 38.5%;
+        }
+
+        .img-fluid {
+            opacity: 1;
+        }
+
+        .img-fluid:hover {
+            visibility: visible;
+            opacity: 0.5;
+            background: rgba(51, 51, 51, 0.52);
         }
     </style>
 </head>
@@ -279,12 +470,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="item-brand__img">
-                        <img style="position: relative;" class="" src="photo/img_brand_01.jpg" alt="" width="700"
-                            height="430">
-                        <img style="    position: absolute;top: 43%; left: 64.5%;;" src="photo/img_brand_02.jpg" alt=""
-                            width="350" height="350">
+                <div class="col-md-8 p-lg-0 p-4">
+                    <div class="item-brand__img ">
+                        <img style="position: relative;" class="img-fluid" src="photo/img_brand_01.jpg" alt=""
+                            width="700" height="430">
+                        <img style="position: absolute;top: 43%; left: 64.5%;;" class="img-fluid"
+                            src="photo/img_brand_02.jpg" alt="" width="350" height="350">
                     </div>
                 </div>
             </div>
@@ -302,8 +493,8 @@
                         <hr width="10%">
                     </h2>
                 </div>
-                <ul class="best-seller-list d-flex justify-content-center">
-                    <li class="best-seller-detail">
+                <ul class="best-seller-list d-flex flex-column flex-lg-row justify-content-center ">
+                    <li class="best-seller-detail col-12 col-lg-4">
                         <a href="#"><img src="photo/img_best_seller_01.png" alt="" width="224" height="387"></a>
                         <div class="seller-product">
                             <span class="text-face">FACE</span>
@@ -314,7 +505,7 @@
                             </p>
                         </div>
                     </li>
-                    <li class="best-seller-detail">
+                    <li class="best-seller-detail col-12 col-lg-4 p-4">
                         <a href="#"><img src="photo/img_best_seller_02.png" alt="" width="224" height="387"></a>
                         <div class="seller-product">
                             <span class="text-face">FACE</span>
@@ -324,7 +515,7 @@
                             </p>
                         </div>
                     </li>
-                    <li class="best-seller-detail">
+                    <li class="best-seller-detail col-12 col-lg-4 p-4">
                         <a href="#"><img src="photo/img_best_seller_03.png" alt="" width="224" height="387"></a>
                         <div class="seller-product">
                             <span class="text-face">FACE</span>
@@ -345,7 +536,7 @@
     <div class="item-3">
         <div class="container">
             <div class="row great-product">
-                <div class="col-6 great-product-left">
+                <div class="col-lg-6 col-12 great-product-left">
                     <h2 class="common-title d-flex flex-column">
                         <span class="japanese">明日へ輝くあなたへ</span>
                         <span class="english">
@@ -357,13 +548,13 @@
                     </h2>
                     <div class="block-image">
                         <img class="img-guide1" src="photo/img_guide_01.jpg" alt="" width="372" height="244">
-                        <img class="img-guide1" src="photo/img_guide_02.jpg" alt="" width="300" height="400">
+                        <img class="img-guide2" src="photo/img_guide_02.jpg" alt="" width="300" height="400">
                     </div>
                 </div>
-                <div class="col-6 great-product-right">
-                    <img src="photo/img_guide_03.jpg" alt="" width="515" height="357">
+                <div class="col-lg-6 col-12 p-lg-0 p-4 great-product-right">
+                    <img class="img-guide3" src="photo/img_guide_03.jpg" alt="" width="515" height="357">
                     <div class="great-product-right__content">
-                        <p>
+                        <p class="common-text">
                             サンプルテキストサンプルテキストサ
                             ンプルテキストサンプルテキストサンプルテ
                             キストサンプルテキストサンプルテキストサ
@@ -371,23 +562,24 @@
                             キストサンプルテキストサンプルテキストサ
                             ンプルテキストサンプルテキスト
                         </p>
-                        <p>
+                        <p class="common-text">
                             サンプルテキストサンプルテキストサンプル
                             テキストサンプルテキストサンプルテキスト
                             サンプルテキストサンプルテキスト
                         </p>
+                        <div class="button btn4">
+                            <a href="#">続きを読む</a>
+                        </div>
                     </div>
-                    <div class="button btn3">
-                        <a href="#">続きを読む</a>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div class="item-4">
+    <div class="item-4">
         <div class="container">
-            <div class="best-seller">
-                <div class="best-seller__content">
+            <div class="item-advantage">
+                <div class="best-seller__content detail">
                     <h2 class="">
                         <span class="japanese">品質への挑戦</span>
                     </h2>
@@ -396,12 +588,13 @@
                         <hr width="10%">
                     </h2>
                 </div>
-                <ul class="best-seller-list d-flex justify-content-center">
-                    <li>
-                        <a href="#"><img src="photo/img_advantage_01.png" alt="" width="150" height="150"></a>
+                <ul class="advantages-list d-flex flex-column flex-lg-row justify-content-center">
+                    <li class="advantage-detail">
+                        <a href="#"><img src="photo/img_advantage_01.png" class="advantages-img01" alt="" width="147"
+                                height="65"></a>
                         <div class="seller-product">
-                            <h3>真のオーガニック成分</h3>
-                            <p class="product-price">
+                            <h3 class="advantage-title">真のオーガニック成分</h3>
+                            <p class="common-text">
                                 サンプルテキストサンプルテキストサンプル
                                 テキストサンプルテキストサンプルテキストサ
                                 ンプルテキストサンプルテキストサンプルテキ
@@ -409,11 +602,12 @@
                             </p>
                         </div>
                     </li>
-                    <li>
-                        <a href="#"><img src="photo/img_advantage_02.png" alt="" width="150" height="150"></a>
+                    <li class="advantage-detail">
+                        <a href="#"><img src="photo/img_advantage_02.png" class="advantages-img01" alt="" width="147"
+                                height="65"></a>
                         <div class="seller-product">
-                            <h3>真のオーガニック成分</h3>
-                            <p class="product-price">
+                            <h3 class="advantage-title">真のオーガニック成分</h3>
+                            <p class="common-text">
                                 サンプルテキストサンプルテキストサンプル
                                 テキストサンプルテキストサンプルテキストサ
                                 ンプルテキストサンプルテキストサンプルテキ
@@ -421,10 +615,11 @@
                             </p>
                         </div>
                     </li>
-                    <li>
-                        <a href="#"><img src="photo/img_advantage_03.png" alt="" width="150" height="150"></a>
+                    <li class="advantage-detail">
+                        <a href="#"><img src="photo/img_advantage_03.png" class="advantages-img01" alt="" width="147"
+                                height="65"></a>
                         <div class="seller-product">
-                            <h3>真のオーガニック成分</h3>
+                            <h3 class="advantage-title">真のオーガニック成分</h3>
                             <p class="product-price">
                                 サンプルテキストサンプルテキストサンプル
                                 テキストサンプルテキストサンプルテキストサ
@@ -436,26 +631,12 @@
                 </ul>
 
             </div>
-            <div class="row">
-                <div class="col-4">
-                    <div class="seller-01">
-                        <img src="photo/img_seller_01.jpg" alt="" width="100%" height="100%">
-
-                    </div>
-                </div>
-                <div class="col-4">
-
-                </div>
-                <div class="col-4">
-
-                </div>
-            </div> 
         </div>
-    </div> -->
-    <!-- <div class="item-5">
+    </div>
+    <div class="item-5">
         <div class="container">
-            <div class="best-seller">
-                <div class="best-seller__content">
+            <div class="item-collection">
+                <div class="best-seller__content collection-title">
                     <h2 class="">
                         <span class="japanese">スタッフおすすめの商品</span>
                     </h2>
@@ -464,123 +645,251 @@
                         <hr width="10%">
                     </h2>
                 </div>
-                <ul class="best-seller-list d-flex justify-content-center">
-                    <li>
-                        <a href="#"><img src="photo/img_product_01.jpg" alt="" width="150" height="250"></a>
+                <ul class="best-seller-list d-flex flex-column flex-lg-row justify-content-center">
+                    <li class="collection-detail">
+                        <a href="#"><img src="photo/img_product_01.jpg" alt="" width="250" height="325"></a>
                         <div class="seller-product">
-                            <span>FACE</span>
-                            <h3>サンプル商品</h3>
-                            <p class="product-price">
-                                <span class="price">¥1,000</span>
-                                <span>¥999</span>
+                            <span class="text-face">FACE</span>
+                            <h3 class="product-name">サンプル商品</h3>
+                            <p class="product-price d-flex justify-content-center">
+                                <span class="original-price">¥1,000</span>
+                                <span class="sale-price">¥999</span>
                             </p>
                         </div>
                     </li>
-                    <li>
-                        <a href="#"><img src="photo/img_product_02.jpg" alt="" width="150" height="250"></a>
+                    <li class="collection-detail">
+                        <a href="#"><img src="photo/img_product_02.jpg" alt="" width="250" height="325"></a>
                         <div class="seller-product">
-                            <span>FACE</span>
-                            <h3>サンプル商品</h3>
-                            <p class="product-price">
-                                <span>¥999</span>
+                            <span class="text-face">FACE</span>
+                            <h3 class="product-name">サンプル商品</h3>
+                            <p class="product-price d-flex justify-content-center">
+                                <span class="original-price">¥1,000</span>
+                                <span class="sale-price">¥999</span>
+                            </p>
+                        </div>
+                        <ul class="color-list d-flex justify-content-center">
+                            <li class="color_is medium-light"></li>
+                            <li class="color_is bright-light"></li>
+                        </ul>
+                    </li>
+                    <li class="collection-detail">
+                        <a href="#"><img src="photo/img_product_03.jpg" alt="" width="250" height="325"></a>
+                        <div class="seller-product">
+                            <span class="text-face">FACE</span>
+                            <h3 class="product-name">サンプル商品</h3>
+                            <p class="product-price d-flex justify-content-center">
+                                <span class="original-price">¥1,000</span>
+                                <span class="sale-price">¥999</span>
                             </p>
                         </div>
                     </li>
-                    <li>
-                        <a href="#"><img src="photo/img_product_03.jpg" alt="" width="150" height="250"></a>
+                    <li class="collection-detail">
+                        <a href="#"><img src="photo/img_product_04.jpg" alt="" width="250" height="325"></a>
                         <div class="seller-product">
-                            <span>FACE</span>
-                            <h3>サンプル商品</h3>
-                            <p class="product-price">
-                                <span class="price">¥1,000</span>
-                                <span>¥999</span>
+                            <span class="text-face">FACE</span>
+                            <h3 class="product-name">サンプル商品</h3>
+                            <p class="product-price d-flex justify-content-center">
+                                <span class="original-price">¥1,000</span>
+                                <span class="sale-price">¥999</span>
                             </p>
                         </div>
-                    </li>
-                    <li>
-                        <a href="#"><img src="photo/img_product_04.jpg" alt="" width="150" height="250"></a>
-                        <div class="seller-product">
-                            <span>FACE</span>
-                            <h3>サンプル商品</h3>
-                            <p class="product-price">
-                                <span class="price">¥1,000</span>
-                                <span>¥999</span>
-                            </p>
-                        </div>
+                        <ul class="color-list d-flex justify-content-center">
+                            <li class="color_is brown"></li>
+                            <li class="color_is center"></li>
+                            <li class="color_is light"></li>
+                        </ul>
                     </li>
                 </ul>
-                <div class="button btn3">
-                    <a href="#">続きを読む</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="img_item-6">
+        <div class="item-img position-absolute">
+            <img class="text-center" src="../photo/icon_testimonial.png" alt="">
+        </div>
+        <div class="item-6 position-relative">
+            <div class="container">
+                <div class="best-seller item-testimonial">
+                    <div class="best-seller__content">
+                        <h2 class="common-title">
+                            <span class="japanese">お客様の声</span>
+                        </h2>
+                        <h2 class="">
+                            <span class="english">OUR TESTIMONIAL</span>
+                            <hr width="10%">
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="common-title testimonial">
+                            サンプルテキストサンプルテキストサンプルテキス
+                            トサンプルテキストサンプルテキストサンプルテキス
+                            トサンプルテキストサンプルテキストサンプルテキス
+                            トサンプルテキストサンプルテキストサンプルテキス
+                            トサンプルテキストサンプルテキスト
+                        </p>
+                        <div class="testimonial-name d-flex">
+                            <hr width="5%">
+                            <span class="d-flex">
+                                Mark Green
+                            </span>
+                            <hr width="5%">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- <div class="item-6">
+    </div>
+    <div class="item-7">
         <div class="container">
-            <div class="best-seller">
+            <div class="item-blog">
                 <div class="best-seller__content">
-                    <h2 class="">
-                        <span class="japanese">お客様の声</span>
+                    <h2 class="common-title">
+                        <span class="japanese">ブログ</span>
                     </h2>
                     <h2 class="">
-                        <span class="english">OUR TESTIMONIAL</span>
+                        <span class="english">FROM OUR BLOG</span>
                         <hr width="10%">
                     </h2>
                 </div>
-                <ul class="best-seller-list d-flex justify-content-center">
-                    <li>
-                        <a href="#"><img src="photo/img_best_seller_01.png" alt="" width="150" height="250"></a>
-                        <div class="seller-product">
-                            <span>FACE</span>
-                            <h3>サンプル商品</h3>
-                            <p class="product-price">
-                                <span class="price">¥1,000</span>
-                                <span>¥999</span>
-                            </p>
+                <ul class="best-seller-list d-flex flex-column flex-lg-row justify-content-center ">
+                    <li class="best-seller-detail col-12 col-lg-4 p-4">
+                        <a href="#"><img src="photo/img_blog_01.jpg" alt="" width="343" height="343"></a>
+                        <div class="blog-content">
+                            <div class="blog-main">
+                                <h3 class="blog-name">投稿のタイトルの例投稿のタイトルの例投稿のタイトルの例</h3>
+                                <p class="blog-main__category">
+                                    <span class="infor">
+                                        <span class="infor-name">Pinky</span>
+                                        による投稿 /
+                                    </span>
+                                    <span class="infor-title"> ボディケア</span>
+                                </p>
+                                <p class="blog-main__title">
+                                    サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+                                </p>
+
+                            </div>
+                            <a class="btn5" href="#">
+                                続きを読む
+                            </a>
                         </div>
                     </li>
-                    <li>
-                        <a href="#"><img src="photo/img_best_seller_02.png" alt="" width="150" height="250"></a>
-                        <div class="seller-product">
-                            <span>FACE</span>
-                            <h3>サンプル商品</h3>
-                            <p class="product-price">
-                                <span>¥999</span>
-                            </p>
+                    <li class="best-seller-detail col-12 col-lg-4 p-4">
+                        <a href="#"><img src="photo/img_blog_02.jpg" alt="" width="343" height="343"></a>
+                        <div class="blog-content">
+                            <div class="blog-main">
+                                <h3 class="blog-name">投稿のタイトルの例投稿のタイトルの例投稿のタイトルの例</h3>
+                                <p class="blog-main__category">
+                                    <span class="infor">
+                                        <span class="infor-name">Pinky</span>
+                                        による投稿 /
+                                    </span>
+                                    <span class="infor-title"> ボディケア</span>
+                                </p>
+                                <p class="blog-main__title">
+                                    サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+                                </p>
+
+                            </div>
+                            <a class="btn5" href="#">
+                                続きを読む
+                            </a>
                         </div>
                     </li>
-                    <li>
-                        <a href="#"><img src="photo/img_best_seller_03.png" alt="" width="150" height="250"></a>
-                        <div class="seller-product">
-                            <span>FACE</span>
-                            <h3>サンプル商品</h3>
-                            <p class="product-price">
-                                <span class="price">¥1,000</span>
-                                <span>¥999</span>
-                            </p>
+                    <li class="best-seller-detail col-12 col-lg-4 p-4">
+                        <a href="#"><img src="photo/img_blog_03.jpg" alt="" width="343" height="343"></a>
+                        <div class="blog-content">
+                            <div class="blog-main">
+                                <h3 class="blog-name">投稿のタイトルの例投稿のタイトルの例投稿のタイトルの例</h3>
+                                <p class="blog-main__category">
+                                    <span class="infor">
+                                        <span class="infor-name">Pinky</span>
+                                        による投稿 /
+                                    </span>
+                                    <span class="infor-title"> ボディケア</span>
+                                </p>
+                                <p class="blog-main__title">
+                                    サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+                                </p>
+
+                            </div>
+                            <a class="btn5" href="#">
+                                続きを読む
+                            </a>
                         </div>
                     </li>
                 </ul>
-                <div class="button btn3">
-                    <a href="#">続きを読む</a>
-                </div>
+
             </div>
-            <div class="row">
-                <div class="col-4">
-                    <div class="seller-01">
-                        <img src="photo/img_seller_01.jpg" alt="" width="100%" height="100%">
+        </div>
+    </div>
 
-                    </div>
+    <div class="item-8 ">
+        <div class="container">
+            <div class="best-seller item-testimonial">
+                <div class="best-seller__content">
+                    <h2 class="common-title">
+                        <span class="japanese">私たちの理念</span>
+                    </h2>
+                    <h2 class="">
+                        <span class="english">WELCOME TO OUR COMMUNITY</span>
+                        <hr width="10%">
+                    </h2>
                 </div>
-                <div class="col-4">
-
-                </div>
-                <div class="col-4">
-
+                <div>
+                    <p class="common-title testimonial">
+                        サンプルテキストサンプルテキス
+                        トサンプルテキストサンプルテキス
+                        トサンプルテキストサンプルテキス
+                        トサンプルテキストサンプルテキス
+                        トサンプルテキストサンプルテキスト
+                    </p>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
+    <div class="item-9 ">
+        <div class="container-fluid p-0">
+            <h3 class="title-hastag position-absolute">
+                #ORGANCOSMETICS
+            </h3>
+            <ul class="d-flex position-relative">
+                <li class="p-0">
+                    <a href="#">
+                        <img class="img-fluid" src="photo/img_organ_01.jpg" alt="" width="304" height="304">
+                    </a>
+                </li>
+                <li class="p-0">
+                    <a href="#">
+                        <img class="img-fluid" src="photo/img_organ_02.jpg" alt="" width="304" height="304">
+                    </a>
+                </li>
+                <li class="p-0">
+                    <a href="#">
+                        <img class="img-fluid" src="photo/img_organ_03.jpg" alt="" width="304" height="304">
+                    </a>
+                </li>
+                <li class="p-0">
+                    <a href="#">
+                        <img class="img-fluid" src="photo/img_organ_04.jpg" alt="" width="304" height="304">
+                    </a>
+                </li>
+                <li class="p-0">
+                    <a href="#">
+                        <img class="img-fluid" src="photo/img_organ_05.jpg" alt="" width="304" height="304">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="item-10 ">
+        <div class="container">
+            <h1 class="p-2 text-center">
+                <a><img src="photo/logo.png" alt="" width="115" height="61"></a>
+            </h1>
+        </div>
+    </div>
 </body>
 
 </html>
